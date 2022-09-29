@@ -1,7 +1,7 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Layout from './Component/Layout';
+import Layout from './Page/Layout';
 
 
 

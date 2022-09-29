@@ -1,0 +1,28 @@
+/* slider */
+.carousel .carousel-item {
+    height: 50px;
+    border-color: #3f475f !important;
+    .ahref {
+        text-decoration: none;
+        color: #039;
+        text-align: center;
+    }
+    :hover {
+        color: #489af1;
+        text-decoration: underline;
+    }
+}
+.slick-prev {
+    left: -30px;
+}
+.slick-prev:before,
+.slick-next:before {
+    font-size: 25px;
+
+    opacity: 1;
+    color: #8598aa;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/* slider */

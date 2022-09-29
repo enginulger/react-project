@@ -6,6 +6,13 @@
 
 npm install react-bootstrap bootstrap
 npm i react-router-dom
+npm i sass
+npm install react-icons --save
+
+# Carousel Slider
+
+npm install react-slick --save
+npm install slick-carousel --save
 
 # React Deploy
 

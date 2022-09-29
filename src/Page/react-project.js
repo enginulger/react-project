@@ -13,11 +13,11 @@ function Context() {
                             <NavLink to="/faq">
                                 <button type="button" className="btn btn-secondary rounded-3">Sık Sorulan Sorular?</button>
                             </NavLink>
-                            <NavLink to="/faq">
+                            <NavLink to="/carousel">
                                 <button type="button" className="btn btn-secondary rounded-3">Carousel Slider</button>
                             </NavLink>
-                            <NavLink to="/faq">
-                                <button type="button" className="btn btn-secondary rounded-3">Kimlik Doğrulama!</button>
+                            <NavLink to="/header">
+                                <button type="button" className="btn btn-secondary rounded-3">Header</button>
                             </NavLink>
 
 
