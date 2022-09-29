@@ -1,15 +1,13 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Layout from './Component/Layout';
 
-import Faq from './Component/Faq';
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <Faq />
-    </div>
-  );
+  return <Layout />
 }
 
 export default App;

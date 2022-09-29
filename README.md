@@ -2,6 +2,7 @@ npx create-react-app .
 npm start
 npm install react-bootstrap bootstrap
 { Col, Container, Row, Accordion }
+npm i react-router-dom
 
 github deploy
 npm install gh-pages --save-dev

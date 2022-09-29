@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Container, Row, Accordion } from 'react-bootstrap';
+import { Container, Row, Col, Accordion } from 'react-bootstrap';
 
 
 function Faq() {
@@ -23,13 +23,13 @@ function Faq() {
 
     return (
         <>
-            <Container>
+            <Container className='p-3'>
                 <Row className='justify-content-center align-items-center'>
                     <Col lg="8" sm="12">
                         <h3 className='p-4'> Sık Sorular Sorular </h3>
                         <Accordion defaultActiveKey={['0']} alwaysOpen>
                             {questions.map((qn, index) => (
-                                <Accordion.Item eventKey={index}>
+                                <Accordion.Item eventKey={index} key={index}>
                                     <Accordion.Header>{qn.title}</Accordion.Header>
                                     <Accordion.Body className='text-start text-justify'>
                                         {qn.body}
